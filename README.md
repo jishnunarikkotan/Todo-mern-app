@@ -10,11 +10,6 @@ This TODO app enables users to manage their daily tasks efficiently through an i
 
 ---
 
-## 🌐 Live Demo
-
-> 📌 *Add link here once deployed (e.g., Render, Vercel, Netlify)*  
-> Example: https://todo-mern-app-taupe.vercel.app/
----
 
 ## 🔧 Tech Stack
 
@@ -80,5 +75,12 @@ npm start
 
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
+
+## 🌐 Live Demo
+
+
+> Example: https://todo-mern-app-taupe.vercel.app/
+---
+
 
 
