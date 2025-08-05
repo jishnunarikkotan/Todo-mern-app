@@ -13,8 +13,7 @@ This TODO app enables users to manage their daily tasks efficiently through an i
 ## 🌐 Live Demo
 
 > 📌 *Add link here once deployed (e.g., Render, Vercel, Netlify)*  
-> Example: https://todo-mern-2025.vercel.app
-
+> Example: https://todo-mern-app-taupe.vercel.app/
 ---
 
 ## 🔧 Tech Stack
@@ -29,4 +28,57 @@ This TODO app enables users to manage their daily tasks efficiently through an i
 ---
 
 ## 📁 Project Structure
+TODO-MERN-Stack-APP-2025/
+├── backend/ # Node.js + Express server
+│ ├── models/ # Mongoose data models
+│ ├── routes/ # Express routes (API)
+│ ├── server.js # Entry point
+│ └── .env # Environment variables
+│
+├── frontend/ # React frontend
+│ ├── public/
+│ ├── src/
+│ │ ├── components/ # Reusable components
+│ │ └── App.js # Main App component
+│ └── package.json # Frontend dependencies
+│
+└── README.md
+
+
+
+
+---
+
+## 🛠️ Setup Instructions
+
+### ✅ Prerequisites
+
+- Node.js (v14 or higher)
+- MongoDB (local or Atlas)
+- Git
+
+---
+
+### 📥 Installation & Running Locally
+
+#### 1. Clone the repository
+
+```bash
+git clone https://github.com/techinfo-youtube/TODO-MERN-Stack-APP-2025
+cd TODO-MERN-Stack-APP-2025
+
+
+cd backend
+npm install
+# Create a .env file and add your MongoDB URI
+npm start
+
+
+cd frontend
+npm install
+npm start
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+
 
